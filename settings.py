@@ -15,6 +15,13 @@ SESSION_CONFIGS = [
         app_sequence=['guess_two_thirds', 'payment_info'],
     ),
     dict(
+        name='survey_test',
+        display_name='survey test',
+        num_demo_participants=1,
+        app_sequence=['survey', 'payment_info'],
+        use_browser_bots=True,
+    ),
+    dict(
         name='survey',
         display_name='survey',
         num_demo_participants=1,
